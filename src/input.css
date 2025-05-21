@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-[#111827] text-white;
+  }
+}
+
+.aspect-video {
+  position: relative;
+  padding-bottom: 56.25%;
+}
