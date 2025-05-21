@@ -6,7 +6,7 @@
   html {
     font-family: 'Inter', sans-serif;
   }
-  
+
   body {
     @apply bg-[#111827] text-white;
   }
@@ -15,4 +15,16 @@
 .aspect-video {
   position: relative;
   padding-bottom: 56.25%;
+}
+
+@layer components {
+  /* Center any phone wrapper */
+  .hero-phone {
+    @apply flex justify-center mt-12;
+  }
+
+  /* Eleven-icon styling (replacing Netflix "N") */
+  .netflix-icon {
+    @apply w-10 h-10 bg-red-600 flex items-center justify-center text-white rounded;
+  }
 }
